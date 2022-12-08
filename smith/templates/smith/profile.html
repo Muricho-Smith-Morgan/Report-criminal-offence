@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    {% block content%}
+    <div class="container body-container">
+        <div class="row">
+            <div class="col-md-6 offset-sm-3">
+                <div class="content-section">
+                    <div class="media d-flex align-items-center justify-content-center">
+                        <img src="nfs-heat.jpg" alt="profile-img" class="rounded-circle profile-pic">
+                        <div class="media-body">
+                            <h2 class="username">Test User</h2>
+                            <p class="text-secondary">blogger@gmail.com</p>
+                        </div>
+                    </div>
+                    <form action="" method="post" enctype="multipart/form-data" class="card card-body">
+                        <fieldset class="form-group">
+                            <legend class="border-bottom mb-4">Profile Info.</legend>
+            
+                        </fieldset>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-outline-primary">Edit profile</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>    
+    </div>
+    {% endblock%}
+</body>
+</html>
